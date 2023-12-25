@@ -1,0 +1,72 @@
+.bg-container {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+.heading {
+  color: #1e293b;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 5px;
+}
+.card {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #cbd2d9;
+}
+.input-box {
+  display: flex;
+  flex-direction: column;
+}
+.description {
+  font-size: 20px;
+  color: #475569;
+  font-weight: 600;
+  text-align: center;
+}
+.input {
+  color: #1e293b;
+  font-size: 18px;
+  font-weight: 500;
+  width: 350px;
+  border: 2px solid #dee0e3;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 5px;
+  font-family: 'Roboto';
+  cursor: pointer;
+  outline: none;
+}
+.btn {
+  background-color: #0284c7;
+  color: #dee0e3;
+  height: 40px;
+  width: 120px;
+  padding: 5px;
+  font-size: 16px;
+  border: 0px;
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.img-box {
+  height: 300px;
+  width: 300px;
+}
+.cmt-text {
+  font-size: 18px;
+  color: #475569;
+  font-weight: 600;
+}
+.comments-list {
+  list-style-type: none;
+}
+.cmt-count {
+  background-color: #0284c7;
+  color: #dee0e3;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
